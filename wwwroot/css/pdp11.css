@@ -1,0 +1,267 @@
+﻿.frame {
+    height: 344px;
+    width: 760px;
+    position: relative;
+    background: linear-gradient( #c3bcaa, #a39c8a );
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+.logo_base {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    height: 28px;
+    width: 404px;
+    border: 1px solid #736c62;
+    border-radius: 5px;
+}
+
+.dec {
+    position: absolute;
+    top: 8px;
+    left: 134px;
+    height: 12px;
+    font-size: 10px;
+    color: #736c62;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.logo {
+    position: absolute;
+    top: 2px;
+    left: 20px;
+    height: 22px;
+    width: 140px;
+    font-size: 80%;
+    text-align: center;
+    color: #736c62;
+    line-height: 22px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.letter {
+    position: relative;
+    float: left;
+    width: 13px;
+    border: 1px solid #736c62;
+    border-bottom-color: #534c42;
+}
+
+.bevel {
+    position: absolute;
+    top: 46px;
+    left: 12px;
+    height: 0px;
+    width: 696px;
+    padding: 20px 20px 20px 20px;
+    background: #837c72;
+    border: none;
+    border-radius: 80px 80px 80px 80px;
+}
+
+.edges {
+    position: absolute;
+    top: 66px;
+    left: 8px;
+    height: 0;
+    width: 736px;
+    border-bottom: 278px solid #9c9781;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+
+.panel {
+    top: 52px;
+    left: 20px;
+    height: 304px;
+    width: 720px;
+    color: white;
+    font-size: 30%;
+    font-family: palatino, verdana;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+.panel_black {
+    position: absolute;
+    height: 242px;
+    width: 720px;
+    border-radius: 15px;
+    background-color: #202020;
+}
+
+.switch_bevel {
+    position: absolute;
+    top: 294px;
+    left: 9px;
+    height: 365px;
+    width: 742px;
+    height: 3px;
+    background: #b3ac9a;
+    border-top: 22px solid #9c9781;
+    border-bottom: 22px solid #534c42;
+}
+
+.baseRed {
+    background-color: firebrick;
+}
+
+.basePurple {
+    background-color: #452c63;
+}
+
+.baseRed, .basePurple {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 10px;
+    width: 65px;
+    text-align: right;
+    float: left;
+}
+
+.ledpad {
+    top: 10px;
+    height: 34px;
+    width: 21px;
+    background-color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    float: left;
+}
+
+.led {
+    top: 16px;
+    left: 6px;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 4px 4px, #f08030, red);
+    box-shadow: 0 0 1px 1px #882111;
+    position: absolute;
+}
+
+.switch_background {
+    position: absolute;
+    border-radius: 6px;
+    background-color: #000000;
+    float: left;
+}
+
+.leddiv {
+    margin-right: 5px;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 4px 4px, #f08030, red);
+    box-shadow: 0 0 1px 1px #882111;
+    float: left;
+}
+
+.switch_padRed {
+    background-color: firebrick;
+}
+
+.switch_padPurple {
+    background-color: #452c63;
+}
+
+.switch_padRed, .switch_padPurple {
+    position: absolute;
+    height: 28px;
+    width: 21px;
+    border-radius: 4px;
+    float: left;
+}
+
+.switchRed {
+    background: #f04040;
+    border-top: 22px solid #e02020;
+    border-bottom: 22px solid #701010;
+    border-left: 6px solid #672020;
+    border-right: 6px solid #501010;
+}
+
+.switchPurple {
+    background: #c010c0;
+    border-top: 22px solid #901090;
+    border-bottom: 22px solid #500050;
+    border-left: 6px solid #472047;
+    border-right: 6px solid #301030;
+}
+
+.switchRed, .switchPurple {
+    position: absolute;
+    top: 0px;
+    height: 3px;
+    width: 9px;
+    transition: .4s;
+}
+
+.rotary-switch {
+    position: absolute;
+    border: solid 1px #202020;
+    border-radius: 50%;
+    background: linear-gradient(0deg, #b0b0c0, #020212 25%, #404050 35%, #303040 65%, #020212 75%, #b0b0c0);
+    transform: rotate(-45deg);
+    transition: .5s;
+}
+
+    .rotary-switch:before {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 50%;
+        height: 6%;
+        top: 47%;
+        background: #FAF8F9;
+        margin: 0% auto;
+    }
+
+.rotary-centre {
+    position: absolute;
+    background: #FAF8F9;
+    left: 43%;
+    top: 44%;
+    width: 12%;
+    height: 12%;
+    border-radius: 50%;
+}
+
+.lock {
+    position: absolute;
+    border-radius: 50%;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    background: linear-gradient(45deg, #43464b, silver);
+    border: solid 1px #11100e;
+    box-shadow: 0 0 0 2px #404040;
+}
+
+.keyBase {
+    position: absolute;
+    border: solid 1px #202020;
+    border-radius: 50%;
+    top: 36%;
+    left: 36%;
+    width: 30%;
+    height: 30%;
+    background: #dimgray;
+}
+
+.key {
+    position: absolute;
+    border: solid 1px black;
+    width: 6%;
+    height: 90%;
+    top: 0%;
+    left: 47%;
+    background: silver;
+    transform: rotate(-45deg);
+    transition: .5s;
+}
